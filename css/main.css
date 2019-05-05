@@ -658,3 +658,13 @@ a:active {
     color: white;
 }
 
+p {
+  text-align: justify;
+}
+
+img#avatar {
+  float: left;
+  width: 128px;
+  margin: 0 10px 10px 0;
+  border: 1px solid #CDCDCD;
+}
