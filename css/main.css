@@ -370,6 +370,7 @@ html {
     font-size: 1em;
     line-height: 1.4;
     font-family: 'Roboto Slab', serif;
+    font-display: auto;
 }
 
 /*
@@ -665,6 +666,7 @@ p {
 img#avatar {
   float: left;
   width: 128px;
+  height: 128px;
   margin: 0 10px 10px 0;
   border: 1px solid #CDCDCD;
 }
