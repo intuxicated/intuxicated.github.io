@@ -1,63 +1,625 @@
-<!doctype html>
-<html class="no-js" lang="">
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Daniel Niknam</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Daniel Niknam Personal Website" />
+    <meta
+      name="keywords"
+      content="Daniel Niknam, دانیال نیکنام, دانیال نیک نام"
+    />
+    <meta name="author" content="Daniel Niknam" />
 
-<head>
-  <meta charset="utf-8">
-  <title>Daniel Niknam</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="57x57"
+      href="apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="114x114"
+      href="apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="72x72"
+      href="apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="144x144"
+      href="apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="60x60"
+      href="apple-touch-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="120x120"
+      href="apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="76x76"
+      href="apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="152x152"
+      href="apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="favicon-196x196.png"
+      sizes="196x196"
+    />
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="favicon-128.png" sizes="128x128" />
 
-  <meta name="theme-color" content="#fafafa">
+    <meta name="application-name" content="niknam.org" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
 
-  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="apple-touch-icon-60x60.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="apple-touch-icon-120x120.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="apple-touch-icon-76x76.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-152x152.png" />
-  <link rel="icon" type="image/png" href="favicon-196x196.png" sizes="196x196" />
-  <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
-  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-  <link rel="icon" type="image/png" href="favicon-128.png" sizes="128x128" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="css/transition-animations.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
 
-  <meta name="application-name" content="niknam.org"/>
-  <meta name="msapplication-TileColor" content="#FFFFFF" />
-  <meta name="msapplication-TileImage" content="mstile-144x144.png" />
-  <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
-  <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
-  <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
-  <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
-</head>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
 
-<body>
-  <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+  </head>
 
-  <h1>Daniel (Mohammad) Niknam</h1>
+  <body class="material-template">
+    <!--[if IE]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
 
-  <h2>About me</h2>
-  <p>I am a senior backend developer <small><i>as you can see</i></small> <br /> <br />
-  <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAASABIAAD/4QCARXhpZgAATU0AKgAAAAgABQESAAMAAAABAAEAAAEaAAUAAAABAAAASgEbAAUAAAABAAAAUgEoAAMAAAABAAIAAIdpAAQAAAABAAAAWgAAAAAAAABIAAAAAQAAAEgAAAABAAKgAgAEAAAAAQAAAICgAwAEAAAAAQAAAIAAAAAA/+0AOFBob3Rvc2hvcCAzLjAAOEJJTQQEAAAAAAAAOEJJTQQlAAAAAAAQ1B2M2Y8AsgTpgAmY7PhCfv/iAqBJQ0NfUFJPRklMRQABAQAAApBsY21zBDAAAG1udHJSR0IgWFlaIAfiAAsAEQAIAB4AF2Fjc3BBUFBMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD21gABAAAAANMtbGNtcwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC2Rlc2MAAAEIAAAAOGNwcnQAAAFAAAAATnd0cHQAAAGQAAAAFGNoYWQAAAGkAAAALHJYWVoAAAHQAAAAFGJYWVoAAAHkAAAAFGdYWVoAAAH4AAAAFHJUUkMAAAIMAAAAIGdUUkMAAAIsAAAAIGJUUkMAAAJMAAAAIGNocm0AAAJsAAAAJG1sdWMAAAAAAAAAAQAAAAxlblVTAAAAHAAAABwAcwBSAEcAQgAgAGIAdQBpAGwAdAAtAGkAbgAAbWx1YwAAAAAAAAABAAAADGVuVVMAAAAyAAAAHABOAG8AIABjAG8AcAB5AHIAaQBnAGgAdAAsACAAdQBzAGUAIABmAHIAZQBlAGwAeQAAAABYWVogAAAAAAAA9tYAAQAAAADTLXNmMzIAAAAAAAEMSgAABeP///MqAAAHmwAA/Yf///ui///9owAAA9gAAMCUWFlaIAAAAAAAAG+UAAA47gAAA5BYWVogAAAAAAAAJJ0AAA+DAAC2vlhZWiAAAAAAAABipQAAt5AAABjecGFyYQAAAAAAAwAAAAJmZgAA8qcAAA1ZAAAT0AAACltwYXJhAAAAAAADAAAAAmZmAADypwAADVkAABPQAAAKW3BhcmEAAAAAAAMAAAACZmYAAPKnAAANWQAAE9AAAApbY2hybQAAAAAAAwAAAACj1wAAVHsAAEzNAACZmgAAJmYAAA9c/8IAEQgAgACAAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAMCBAEFAAYHCAkKC//EAMMQAAEDAwIEAwQGBAcGBAgGcwECAAMRBBIhBTETIhAGQVEyFGFxIweBIJFCFaFSM7EkYjAWwXLRQ5I0ggjhU0AlYxc18JNzolBEsoPxJlQ2ZJR0wmDShKMYcOInRTdls1V1pJXDhfLTRnaA40dWZrQJChkaKCkqODk6SElKV1hZWmdoaWp3eHl6hoeIiYqQlpeYmZqgpaanqKmqsLW2t7i5usDExcbHyMnK0NTV1tfY2drg5OXm5+jp6vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAQIAAwQFBgcICQoL/8QAwxEAAgIBAwMDAgMFAgUCBASHAQACEQMQEiEEIDFBEwUwIjJRFEAGMyNhQhVxUjSBUCSRoUOxFgdiNVPw0SVgwUThcvEXgmM2cCZFVJInotIICQoYGRooKSo3ODk6RkdISUpVVldYWVpkZWZnaGlqc3R1dnd4eXqAg4SFhoeIiYqQk5SVlpeYmZqgo6SlpqeoqaqwsrO0tba3uLm6wMLDxMXGx8jJytDT1NXW19jZ2uDi4+Tl5ufo6ery8/T19vf4+fr/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/2gAMAwEAAhEDEQAAAfURv2IqkVoyNMt3XHsuRK5dYEtGbJkmVp4rqqDRZ6Tib5T6JE72uCurOkbg80yuWOOiiVwufSx5bm6jbPqSccB19ideOet8HSB9zFpm/ouaI9rznS6R8Vd19Q5QV3Idrw+erJXaVj9XPVnSUubc91vOPBh6Y4dl8/oZsm9d7fi373moWO5qdnXfI3hc96VhYRr6FRU9NUI1UO9pRn7SWoceR0UTU1Z73gOxtZYuy1tpmVkb12T9DUnYN6zKp6rm4KkVUufrgfOO0z52V/yx+vh7NQ77fSrZXj3JuKo7bz5yXsPNOkx6up5tjWZ9AW7uGwFa02OfYu6pxpyem9B4r2rP1PnlfU6s1bLGpY2Ddrm/asGvT5dPPhccUFKOTPl18DtG52ttdMtbk2EwWbuAkVm4XQAQgKZWaZw2FCcMH//aAAgBAQABBQJmhRLAEtCYS+RGxGgNNAy69wGopQjdiiePZ50Jjya46lYoXJHk0SlJydeytHQlgU7Tx85KrPlOKJYnrcq7yQaOQBTBXGpKgoO4njt4TvRDl3m5Kod9kCra8guU0yd+vlQwH6PvLEJHLCtDLKShVzeCKC5uZJlLLLq7S4ktprS4juLa/liuHt9wiSPspQBZ4T26VtSVJO8LrJb2SpE+4gFUCXJClzowPhm56uTEtUdsjKOYKapwDNMGo0hVOaJnJRKsragle48sYyBzAByyRh3HUPD+u6JjSntcL6lSNMgKkzfR5axqq8tOWRvF/ey5W9ypar5S0OqqDUwlcN5DMmWLIOWeoyLzoVqKWsmiZNQs1ixVdz2K1KtLTBe6IcIiyuEJD4TWpj92oC18ZSUPnCmWQjVoOspJDEg5l3Nii2XKXdLuFOpyK84tvhRPfGMBpeRIkrVYKRIcWM8okufpHMqVUljTb3DkTGBdIClSLSI8xzI7y4RLY3PPtua7OyROlW2wFStstKDboSn3ORLns1Ld5bSWsUV6qOa1kSp3EcbuVoQ1rJNKlCsXYXvIStTtLkxL5wmRbYKQpfIXPEmeK9Tb27vZ1SSqLs6yWks09ZKqKYy1Ci06ngZD0bfEha9pVb8ghBTdXUFrHum6STIUpLXiWvjYzcomkjkQK8pzxojhzAdSXrgj2IpJELmvZIbTcJTLNdS1alIAUMWoMJqdvmDTAJHuV7HalalyqSh0oPyEnC2yBTJKpd0etQLWNKKKdUuuJmByjknSOSpqGmuNKhIlVJHYzKe1WYL3rl8yYvLKJVFtMgLMiXkhTUTzpZkywLWS1qq8mVVf/9oACAEDEQE/AQUBjSNZfkwOo5RKvKcp9ETkHHPd5RLl3hGS0Zn3d4phiDKID4lwiPqWX9EFDj5LCMrZxspjR7AxkQxnY4TbkKZEBHBYys1SY+oQHFIhOaw1pTGZ8O4nSJpGSLKf5a0EajX/2gAIAQIRAT8BItMr8uTcPLL89cdXd8uWAuxoU8cFljs8MemAH3MsMD6ObD7fhljO1ppkHDEbrZF5ZgShyyzVxHQsg4+JJb02i+UaSdutWzxgDSWMCNuwJxRpkA7dCLfCBuRAR0It2FEa864086nynT//2gAIAQEABj8CdFcHpwfUNX7IeiQ+H3dWSdAHzOb1eQYh5le1a0dOxxdFvT7no9O2JPSzTUPLCtODoEgdyQe2vF08nXsVrPy+LP0Ff8p9HKSPSlX9NEkj+SyqJeVOL14PJOjB+6dNA6OqWVfm8g8lrJP3BJH+Hq0zo4H9TIOVQXh5p+9VOho9WEDyeZ4PXtw7LtF8D1p/rdKB1CcQ6cC6dq18nopg+bJZCuGb007+2HUONIPEEOvn2zTpV8WKtSSe3F0YHkTk6JIjQHjWroXpGH7NGmSI0Ug5BokH5hXtTvWrqS6dkLV7VCA1yaHXzepqrtRaRV6P7HHrwSHoXSjGvfV17Jp5F8dA1LT5uikUdVkOrTHIrFNKug7HtQsUfB1dfJ6PU8WCmXp80cHTlor8algYpp8A8B69qRzKAHlxef5hop04PLnD5Prleqi8o1EvXEB05sf4vmHEp+b6vYL48X7WrLPY/FyR0JzNaup4sKDC2KvpBL1D/wAajUf2RqzqaeXZJjNFp0L6lU+x8avV1ZL04uoZ5p6aVeuNXpo+s1PkGeqieGI7ace3F14uiU9lSSkDToHqXoe/o00LCweo0SK/FrWpdQlpxp8A9RV5fmozSh0Zo+WuvwIei1f4LMFuMpB7SlflZUpRUfUvV07UeiCp/TRFCUaiqvN9PAtP9l1LC+FWo0YI0q6cCQ/3kyR/bUH1cf4XSjGvbEAvTj6NRWkgjyfLSaY8aOlWljySyo8Py9tftYrrTgWAK9KwS6aih7fw9v/EADMQAQADAAICAgICAwEBAAACCwERACExQVFhcYGRobHB8NEQ4fEgMEBQYHCAkKCwwNDg/9oACAEBAAE/IY5Hq5VKok7vM+9VzCKBAvqjqfj/AJfCteY/VV5x6sKQJo0CHD4qXkiSbChG9ldmPHN4iml06vVrzYO8LyoibRR6ihRy8Zux5raTqkoRIagf9CEHkrHvQWUFhGgx9lVrbgBpLxl2CeXbxdUV04s4PsH7X2Da4f3QJjgiEpJP1XaB8WTvJ/8AgOJyPFcZLusFkY16vHVTJ4+y9ASJ6+Ki1PhrqqdpyuB4bmYfDyuykKWIKJCmDP8A0UPdXJsHol6icRVMd7oGuO/dU49JukaUwstrgLwFE/JkP4uOsGA8BUlf8IsUC7da4rmmvVxROpujS1UpRHRU2izJtajSx52KGOPusn+q7iluIHsszJJoAuuKPCuqs5ZYFBF1uCuN8RLXJYZPLYVae29xWCa57bObTuOLFsdY/wA9lxIBh82Plsz26pzk2AM7Rgc7Ci+rxmX62k5P28/8vNz5dPVAIF2DqpMxxXfaBzfAyuvdpMAiz4oyqO82UQL4Ut0UCGmkUMReRbKRotyCFBCynJvKyfih8d42onIO6uSTIjYjPuyQRmVqTMRcIxZR3tOYNLRtAIrdoMTYvEUwDHuiFwN+bpuL7n2bfnvep81YEHwzReHara7wvdBktHjaUGBIPdBM6KQO6livqavSjea7eR205QXm8WvVa17ElJ5vEk8e6bEew1Gs/ldREnFUPNWKMJUgmValJeIwPGRZxEp0sOS5tC+LJ4zFLDF2C4BhO64/kRVcEMCeCp/5U7RweY4bmszzTnKfxWMjLFdCr3LllnqT2KJlCImug4OnxeCfYppJfkbHDVhgV7w/TSqphzNhLV90R+iPZSWdVsmfJTHFn8jF5/1Xi/hojJiwVuXBll5spaz1T4qhGColsdcBD3SUHDLgsrmB122ECVTQ6sPIwn1Nj3llI8w9n7KALJ65/wA0iPnIXiO2pWnLTYe40kQNMbrIY9WeZJWT0sMUY68y+HFgTrq8XcGABdC5zR+Qa3qowYjmiVS62bRsY1MnSYFfusvOTLtQMAum2cfFRyI2dcVI5K1EkiVDluHsmtK9dPm8znTdudNPVddHAVKC4TlmRpj/AOKkXAfIXvMEOnK55GSbTC6M1MT54XIX/9oADAMBAAIRAxEAABC8kcd953t0LyxLW65jH24ZWFmYCZNKbUOMRoPnfcGPAlCdZiGxCyGdyJh336rYCtT/xAAzEQEBAQADAAECBQUBAQABAQkBABEhMRBBUWEgcfCRgaGx0cHh8TBAUGBwgJCgsMDQ4P/aAAgBAxEBPxDk5sOpM4/7PDDiMI/X1/5BThxLmPxZClyaQj4TneF8pD96DUmbtsYt4lBiyx3Mac3YRuxTku0sCBr4l7bMGF+LbLtI6SGiHe4e+bXDY0TS4YLTg5Pi5uSVwuIC0ms51OIBguBEr0mHMaZ4BLA2GejiF8//2gAIAQIRAT8QycXQ4Qb5f2ubrn8+v4J1dO/1/BOB9f7f9sg/+H+pH1HgELYA0l+Tv65sZzf6Q3M7HR/pYGHNqcwZzao+JbY4Jk/rwaeGybz/ADMYwcy6JOjSErITy2Hmch7DidrzBzCtvMgi9MXQ75sWwjGHU67gl+Z5s2SvUq8ZP7S0xJKAsv/aAAgBAQABPxAKARGj00FGTSxDm0jr5r2b2Y2S+ZurQwo7dV/DfhXr0NyQRdOstfsfCqDA8KpMkVuBFXP4WJFxTCPisESNHMSRDus2JIByeasHMkb7uITp9vV0UjBHHzUc0rss9FgTvYcejm6H+1pWI8ry2FbzUyrKBODP5qQ4kgJ+bNJD5ZueL2B9VJTHD/V1CN0iwYhcCkvE9WKOOzupury0nyCAt6RYpINo/wBk2GTMyQnhSfqkNhCQewSPxJUBSEhLxI7UiPTyqLPwBOds0sjVeX/rQubcj/CzBdJ3ShYlO7JUNNT6oSznyfR3WkdsjD4HBZTKtkzlHV2SpZUqw9O//u6d9Mzc6oQMX2IliOwkkB3ThSRafN+akMdKBI5XHlHM19QhBgWzagzxKEidPvX8R+bzuWMLeYhNfgiYxQxH1nNjerZpY89gR8DKPa0dKQ2Dn1ejeQRNeMFiGqHEzDtkpKAfmhJnJSEgTlgod483gry1gVwK8gQFiYEg8Czgkx4q1ke3dU5GOzW1JqUPFCs9x4cH+OrGMkQt6IpTo4JiKqOXnbORo8swQ1qMQ8NmCQPBN0U1L6zZPN+wSxScKAXqg0vmVYVC7O19hIElYFAzsWYDbhB0hnpFPS97YQCtdQmKgkaKXzHVJopbJCYc0Cq+9SmLTJJj20cdTU9NNpD3nWP2rhGi1Q9AMvJ0gIB8WdYTBHdMl9eAUCQeEvmpSE9T/wCVbgaUaCf3ZL79ZqEE5ycFSgvCFBmvvWqcKTwLZs/JcBDh5oCAk6NQEBD+n9LReOpzz5pShiZIB/ulIVbsj7uiQQAQWQMqIHNRjFoFqE3jT7zLlz4eoscNOMawGn3FBiwwUAFEfqlFSBvTcAZJjqwoQxKhJDtXzkyFVmWFHgUg7YKgPxQoJMlUIOHcOZZshHmE3xLmUcBMgcAFXzgL6PfzRg/mQYMhI17y/GY6CDnpEa6DzjSyaRwRJRT4zAoqCQIvBGQSFVRwxUTQWAnoP7rpipC7zwbwLUhiwpZ4Hx2dnxWpYADjbIC8HCg6cP8Aag18Svh0gHNaloubOvihbjBjGQh54H7aL2fKFi4IHkLFRJPaiEgi0ETHTOUpIlPCKeAjzw/KYfdRlNaAPXvmggZSa0p/kJx8kRRzYdm/1V64yxAs7gKEVHO+rKhM0KBodvAFj3KdSz4VwFaQV4IJOlhm8wKF6M4+X0e7sVUMfcc/c1dEpqwH4sOgT4jyRzSxgkKaBDBeA9h7PFDRES5K2H6OWGlhS+ir2mnqEM5hyvrxYAjPD/P6ooIlq8vtpratgrZzFlYMRLKErRM8QQegmX4sRyY2WHrg54peIggg01D9ViASTHqnxWEAOKWye+rDmRh4YmPcUMRCBM8EpVsHd0o8JjHnGKAUH/1YuaA4njgz5WDueLzp2tfHo9EB4ugGBGJEeGrrCQclOYHGKSSuydVchdAa8S0B6c5xQAIcXl8VmolOivHx/FGKBy7thAxlMfj7vBAhyHx3UXKU9FZuGKqiTjF8TTIYZyScIndApIIICA4H/wAphBrkmyZWeVXZd+6KVhABzcogPs8WSJLss/d26XARRgrJht8JCSzuoRJkaSgu8JEERzQzIek/0ak7ECvwxZzgIs9e7GCD1BKUrgLgzl92FUQLeGch9WVyZ4Uz7riFJQRJRpyIMkOnzpWKJ8IoCRk4cKd0QA4xMdX/2Q==" alt="Daniel Niknam" id="avatar" />
-  A skilled and <span title="I mean, I've learnt everything by myself">self-educated</span> developer with more than <span title="actually, 15 years">ten years</span> of experience in <span title="I don't want to mention Visual Basic">web development</span>, building a range of <span title="Such as microservices">advanced applications</span> using Ruby and <span title="It's true. I did :(">PHP</span>. An experienced technical leader with excellent <span title="I'll tell jokes as many as I can">communication skills</span> and <span title="I'll try so hard">enthusiasm</span> for learning. The fine knowledge of <span title="git init, git pull and git push">project lifecycle</span> makes me a <span title="Awesome">good</span> candidate for implementing applications from <span title="fight">design</span> to <span title="run">deploy</span>.
-  </p>
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="preloader-spinner"></div>
+      </div>
+    </div>
 
-  <h3 style="clear: both">More information?</h3>
-  <p><a href="https://github.com/intuxicated" target="_blank">Github</a> or <a href="https://www.linkedin.com/in/mhmdniknam/" target="_blank">Linkedin</a></p>
+    <div id="page" class="page">
+      <!-- Header -->
+      <header id="site_header" class="header mobile-menu-hide">
+        <div class="header-content">
+          <div class="site-title-block mobile-hidden">
+            <div class="site-title">Daniel <span>Niknam</span></div>
+          </div>
 
-  <h4>Contact me</h4>
-  <p><a id="secret" target="_blank">Email</a></p>
-  <script TYPE="text/javascript">
-    document.getElementById("secret").href = atob('bWFpbHRvOm1obWQubmlrbmFtQGdtYWlsLmNvbQ==')
-  </script>
+          <!-- Navigation -->
+          <div class="site-nav">
+            <!-- Main menu -->
+            <ul id="nav" class="site-main-menu">
+              <li>
+                <a class="pt-trigger" href="#home" data-animation="62">Home</a
+                ><!-- href value = data-id without # of .pt-page. -->
+              </li>
+              <li>
+                <a class="pt-trigger" href="#experience" data-animation="62"
+                  >Experience</a
+                >
+              </li>
+              <li>
+                <a class="pt-trigger" href="#skills" data-animation="62"
+                  >Skills</a
+                >
+              </li>
+              <li>
+                <a class="pt-trigger" href="#contact" data-animation="62"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <!-- /Main menu -->
+          </div>
+          <!-- Navigation -->
+        </div>
+      </header>
+      <!-- /Header -->
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+      <!-- Mobile Header -->
+      <div class="mobile-header mobile-visible">
+        <div class="mobile-logo-container">
+          <div class="mobile-site-title">Daniel Niknam</div>
+        </div>
 
-  <style>
-  /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0;max-width:640px;padding:0 20px}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}/*! HTML5 Boilerplate v7.1.0 | MIT License | https://html5boilerplate.com/ */html{color:#222;font-size:1em;line-height:1.4;font-family:'Roboto Slab',serif;font-display:auto}::-moz-selection{background:#b3d4fc;text-shadow:none}::selection{background:#b3d4fc;text-shadow:none}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}audio,canvas,iframe,img,svg,video{vertical-align:middle}fieldset{border:0;margin:0;padding:0}textarea{resize:vertical}.browserupgrade{margin:.2em 0;background:#ccc;color:#000;padding:.2em 0}.hidden{display:none!important}.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;white-space:nowrap}.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto;white-space:inherit}.invisible{visibility:hidden}.clearfix:after,.clearfix:before{content:" ";display:table}.clearfix:after{clear:both}@media print{*,:after,:before{background:0 0!important;color:#000!important;-webkit-box-shadow:none!important;box-shadow:none!important;text-shadow:none!important}a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}abbr[title]:after{content:" (" attr(title) ")"}a[href^="#"]:after,a[href^="javascript:"]:after{content:""}pre{white-space:pre-wrap!important}blockquote,pre{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}img,tr{page-break-inside:avoid}h2,h3,p{orphans:3;widows:3}h2,h3{page-break-after:avoid}}a:link,a:visited{color:#ff8c00}a:hover{color:#ff4500}a:active{background:#ff4500;color:#fff}p{text-align:justify}img#avatar{float:left;width:128px;height:128px;margin:0 10px 10px 0;border:1px solid #cdcdcd}
-  </style>
-</body>
+        <a class="menu-toggle mobile-visible">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <!-- /Mobile Header -->
+
+      <!-- Main Content -->
+      <div id="main" class="site-main">
+        <!-- Page changer wrapper -->
+        <div class="pt-wrapper">
+          <!-- Subpages -->
+          <div class="subpages">
+            <!-- Home Subpage -->
+            <section class="pt-page" data-id="home">
+              <div class="section-inner start-page-content">
+                <div class="page-header">
+                  <div class="row">
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                      <div class="photo">
+                        <img
+                          src="images/daniel_niknam.png"
+                          alt="Daniel Niknam"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="col-sm-8 col-md-8 col-lg-8">
+                      <div class="title-block">
+                        <h1>Daniel Niknam</h1>
+                        <div class="owl-carousel text-rotation">
+                          <div class="item">
+                            <div class="sp-subtitle">
+                              Senior Backend Developer
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="social-links">
+                        <a href="https://github.com/intuxicated"
+                          ><i class="fa fa-github"></i
+                        ></a>
+                        <a href="https://www.linkedin.com/in/mhmdniknam/"
+                          ><i class="fa fa-linkedin"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="page-content">
+                  <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <div class="about-me">
+                        <div class="block-title">
+                          <h3>About <span>Me</span></h3>
+                        </div>
+                        <p>
+                          A skilled and self-educated developer with more than
+                          10 years of experience in web development, building a
+                          range of advanced applications using Ruby and PHP. An
+                          experienced technical leader with good communication
+                          skills and enthusiasm for learning. The fine knowledge
+                          of project lifecycle makes me a good candidate for
+                          implementing applications from design to deploy.
+                        </p>
+                      </div>
+                      <div class="download-resume">
+                        <a
+                          download
+                          target="_blank"
+                          href="Resume-Daniel-Niknam.pdf"
+                          class="btn btn-primary"
+                        >
+                          <i class="fa fa-download"></i>&nbsp; Download
+                          Resume</a
+                        >
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <ul class="info-list">
+                        <li>
+                          <span class="title">Age</span
+                          ><span class="value"
+                            ><script type="text/javascript">
+                              var d1 = new Date(1987, 3, 21);
+                              var d2 = new Date();
+                              var diff = d2.getTime() - d1.getTime();
+                              document.write(
+                                Math.floor(
+                                  diff / (1000 * 60 * 60 * 24 * 365.25)
+                                )
+                              );
+                            </script></span
+                          >
+                        </li>
+                        <li>
+                          <span class="title">Residence</span
+                          ><span class="value">Australia</span>
+                        </li>
+                        <li>
+                          <span class="title">e-mail</span
+                          ><span class="value"
+                            ><a id="secret" href="">mh*****am@gmail.com</a>
+                            <script type="text/javascript">
+                              document.getElementById("secret").href = atob(
+                                "bWFpbHRvOm1obWQubmlrbmFtQGdtYWlsLmNvbQ=="
+                              );
+                            </script>
+                          </span>
+                        </li>
+                        <li>
+                          <span class="title">Working at</span
+                          ><span class="value">
+                            <a href="https://envato.com">Envato</a>
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End of Home Subpage -->
+
+            <!-- Resume Subpage -->
+            <section class="pt-page" data-id="experience">
+              <div class="section-inner custom-page-content">
+                <div class="page-header color-1">
+                  <h2>Experience</h2>
+                </div>
+                <div class="page-content">
+                  <div class="row">
+                    <div class="col">
+                      <div class="block">
+                        <div class="timeline">
+                          <!-- Experience 1 -->
+                          <div class="timeline-item">
+                            <h4 class="item-title">Software Developer</h4>
+                            <span class="item-period">Jan 2019 - Present</span>
+                            <span class="item-small">Envato</span>
+                          </div>
+                          <!-- / Experience 1 -->
+
+                          <!-- Experience 2 -->
+                          <div class="timeline-item">
+                            <h4 class="item-title">Senior Backend Developer</h4>
+                            <span class="item-period">Sep 2017 - Dec 2018</span>
+                            <span class="item-small">Bugloos</span>
+                          </div>
+                          <!-- / Experience 2 -->
+
+                          <!-- Experience 3 -->
+                          <div class="timeline-item">
+                            <h4 class="item-title">Senior Backend Developer</h4>
+                            <span class="item-period">Jul 2016 - Sep 2017</span>
+                            <span class="item-small">Round Table Apps</span>
+                          </div>
+                          <!-- / Experience 3 -->
+
+                          <!-- Experience 3 -->
+                          <div class="timeline-item">
+                            <h4 class="item-title">Web Developer</h4>
+                            <span class="item-period">Jul 2016 - Sep 2017</span>
+                            <span class="item-small">VADA House of Mobile</span>
+                          </div>
+                          <!-- / Experience 3 -->
+
+                          <!-- Experience 3 -->
+                          <div class="timeline-item">
+                            <h4 class="item-title">PHP Developer</h4>
+                            <span class="item-period">Jun 2012 - Apr 2013</span>
+                            <span class="item-small">Aftab Group</span>
+                          </div>
+                          <!-- / Experience 3 -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Download Resume Button -->
+                  <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                      <div class="block">
+                        <div class="center download-resume">
+                          <a
+                            href="Resume-Daniel-Niknam.pdf"
+                            class="btn btn-primary"
+                            ><i class="fa fa-download"></i>&nbsp;Download
+                            Resume</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Download Resume Button -->
+                </div>
+              </div>
+            </section>
+            <!-- End of Resume Subpage -->
+
+            <!-- Services Subpage -->
+            <section class="pt-page" data-id="skills">
+              <div class="section-inner custom-page-content">
+                <div class="page-header color-1">
+                  <h2>Skills</h2>
+                </div>
+                <div class="page-content">
+                  <!-- Programming Languages -->
+                  <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                      <div class="block-title">
+                        <h3>Programming Languages</h3>
+                      </div>
+
+                      <div class="col-sm-4 col-md-2 subpage-block">
+                        <div class="client-block">
+                          <a href="https://www.php.net/" target="_blank"
+                            ><img
+                              src="images/skills/php-logo.png"
+                              alt="PHP"
+                              class="mCS_img_loaded"
+                          /></a>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4 col-md-2 subpage-block">
+                        <div class="client-block">
+                          <a href="https://www.python.org/" target="_blank"
+                            ><img
+                              src="images/skills/python-logo.png"
+                              alt="Python"
+                              class="mCS_img_loaded"
+                          /></a>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4 col-md-2 subpage-block">
+                        <div class="client-block">
+                          <a
+                            href="https://www.ruby-lang.org/en/"
+                            target="_blank"
+                            ><img
+                              src="images/skills/ruby-logo.png"
+                              alt="Ruby"
+                              class="mCS_img_loaded"
+                          /></a>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4 col-md-2 subpage-block">
+                        <div class="client-block">
+                          <a href="https://golang.org/" target="_blank"
+                            ><img
+                              src="images/skills/golang-logo.png"
+                              alt="Golang"
+                              class="mCS_img_loaded"
+                          /></a>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4 col-md-2 subpage-block">
+                        <div class="client-block">
+                          <a href="https://www.rust-lang.org/" target="_blank"
+                            ><img
+                              src="images/skills/rust-logo.png"
+                              alt="Rust"
+                              class="mCS_img_loaded"
+                          /></a>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4 col-md-2 subpage-block">
+                        <div class="client-block">
+                          <a href="https://elixir-lang.org/" target="_blank"
+                            ><img
+                              src="images/skills/elixir-logo.jpeg"
+                              alt="Elixir"
+                              class="mCS_img_loaded"
+                          /></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Language -->
+
+                  <!-- Frameworks -->
+                  <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                      <div class="block-title">
+                        <h3>Frameworks</h3>
+                      </div>
+
+                      <div class="col-sm-4 col-md-2 subpage-block">
+                        <div class="client-block">
+                          <a href="https://symfony.com/" target="_blank"
+                            ><img
+                              src="images/skills/symfony-logo.png"
+                              alt="Symfony"
+                              class="mCS_img_loaded"
+                          /></a>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4 col-md-2 subpage-block">
+                        <div class="client-block">
+                          <a href="https://laravel.com/" target="_blank"
+                            ><img
+                              src="images/skills/laravel-logo.png"
+                              alt="Laravel"
+                              class="mCS_img_loaded"
+                          /></a>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4 col-md-2 subpage-block">
+                        <div class="client-block">
+                          <a
+                            href="https://www.djangoproject.com/"
+                            target="_blank"
+                            ><img
+                              src="images/skills/django-logo.png"
+                              alt="Django"
+                              class="mCS_img_loaded"
+                          /></a>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4 col-md-2 subpage-block">
+                        <div class="client-block">
+                          <a
+                            href="https://www.fullstackpython.com/flask.html"
+                            target="_blank"
+                            ><img
+                              src="images/skills/flask-logo.jpeg"
+                              alt="Flask"
+                              class="mCS_img_loaded"
+                          /></a>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4 col-md-2 subpage-block">
+                        <div class="client-block">
+                          <a href="https://rubyonrails.org/" target="_blank"
+                            ><img
+                              src="images/skills/ruby-on-rails-logo.png"
+                              alt="Ruby on Rails"
+                              class="mCS_img_loaded"
+                          /></a>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4 col-md-2 subpage-block">
+                        <div class="client-block">
+                          <a href="http://sinatrarb.com/" target="_blank"
+                            ><img
+                              src="images/skills/sinatra-logo.png"
+                              alt="Sinatra"
+                              class="mCS_img_loaded"
+                          /></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Frameworks -->
+
+                  <!-- Databases -->
+                  <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                      <div class="block-title">
+                        <h3>Databases</h3>
+                      </div>
+
+                      <div class="col-sm-4 col-md-2 subpage-block">
+                        <div class="client-block">
+                          <a href="https://www.postgresql.org/" target="_blank"
+                            ><img
+                              src="images/skills/postgres-logo.png"
+                              alt="PostgreSQL"
+                              class="mCS_img_loaded"
+                          /></a>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4 col-md-2 subpage-block">
+                        <div class="client-block">
+                          <a href="https://www.mysql.com/" target="_blank"
+                            ><img
+                              src="images/skills/mysql-logo.png"
+                              alt="MySQL"
+                              class="mCS_img_loaded"
+                          /></a>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4 col-md-2 subpage-block">
+                        <div class="client-block">
+                          <a href="https://redis.io/" target="_blank"
+                            ><img
+                              src="images/skills/redis-logo.jpeg"
+                              alt="Redis"
+                              class="mCS_img_loaded"
+                          /></a>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4 col-md-2 subpage-block">
+                        <div class="client-block">
+                          <a
+                            href="https://www.influxdata.com/products/influxdb-overview/"
+                            target="_blank"
+                            ><img
+                              src="images/skills/influxdb-logo.jpeg"
+                              alt="InfluxDB"
+                              class="mCS_img_loaded"
+                          /></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Databases -->
+                </div>
+              </div>
+            </section>
+            <!-- End of Services Subpage -->
+
+            <!-- Contact Subpage -->
+            <section class="pt-page" data-id="contact">
+              <div class="section-inner custom-page-content">
+                <div class="page-header color-1">
+                  <h2>Contact</h2>
+                </div>
+                <div class="page-content">
+                  <div class="row">
+                    <div class="col">
+                      <div class="block-title">
+                        <iframe
+                          src="https://docs.google.com/forms/d/e/1FAIpQLSfn-rYU0baafM0CGzW7fPcXjqHlR5d56rZeOhM3d8K4NPjGGg/viewform?embedded=true"
+                          width="100%"
+                          height="900"
+                          frameborder="0"
+                          marginheight="0"
+                          marginwidth="0"
+                          >Loading…</iframe
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End Contact Subpage -->
+          </div>
+        </div>
+        <!-- /Page changer wrapper -->
+      </div>
+      <!-- /Main Content -->
+    </div>
+    <footer>
+      <div class="copyrights">
+        ©
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        All rights reserved. Daniel Niknam
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/pages-switcher.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
 </html>
