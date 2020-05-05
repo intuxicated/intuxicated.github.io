@@ -35,10 +35,6 @@
     .on("resize", function () {
       //Resize
       mobileMenuHide();
-
-      setTimeout(function () {
-        subpages_resize();
-      }, 500);
     })
     .scroll(function () {
       if ($(window).scrollTop() < 20) {
@@ -59,20 +55,6 @@
     // Mobile menu hide on main menu item click
     $(".site-main-menu").on("click", "a", function (e) {
       mobileMenuHide();
-    });
-
-    // Text rotation
-    $(".text-rotation").owlCarousel({
-      loop: true,
-      dots: false,
-      nav: false,
-      margin: 0,
-      items: 1,
-      autoplay: true,
-      autoplayHoverPause: false,
-      autoplayTimeout: 3800,
-      animateOut: "zoomOut",
-      animateIn: "zoomIn",
     });
 
     //Form Controls
